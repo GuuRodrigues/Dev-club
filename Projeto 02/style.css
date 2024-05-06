@@ -1,0 +1,99 @@
+:root{
+    --green: #6FBF44;
+    --dark-blue: #161A49;
+    --dark-gray: #4B505A;
+    --black: #17233D;
+    --white: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header-container {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.header-container > .nav-container > a {
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color:var(--black) ;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.header-container > .nav-container > a:hover {
+    color: var(--green);
+}
+
+.header-container > .nav-container > .header-button {
+    background: var(--green);
+    border: none;
+    border-radius: 6px;
+    height: 51px;
+    width: 124px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.header-container > .nav-container > .header-button:hover {
+    background: #5fa739;
+}
+
+.main-container {
+    display: flex;
+}
+
+.main-container > .img {
+    margin: 163px 0 0 123px;
+    width: 595px;
+    height: 500px;
+}
+
+.main-container > .text {
+    margin: 163px 0 84px 123px;
+    width: 593px;
+    /* margin-left: 84px; */
+}
+
+.main-container > .text > h1 {
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: var(--dark-blue);
+}
+
+.main-container > .text > p {
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: var(--dark-gray);
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.main-container > .text > a {
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: var(--green);
+    cursor: pointer;
+}
+
+.main-container > .text > a:hover {
+    color: #5fa739;
+}
