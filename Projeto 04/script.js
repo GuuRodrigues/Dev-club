@@ -37,6 +37,8 @@ const changeCurrency = () => {
         currencyImg.src = 'assets/estados-unidos (1) 1.png'
     }
 
+    convertValues();
+
 }
 
 button.addEventListener('click', convertValues);
